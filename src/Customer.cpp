@@ -7,6 +7,14 @@ Customer::Customer(std::string f, std::string l, std::string a){
   m_ArrivalTime = time(0);
 }
 
+Customer::Customer(std::string f, std::string l, std::string a, int p){
+  m_FirstName = f;
+  m_LastName = l;
+  m_Appointment = a;
+  m_Prefered = p;
+  m_ArrivalTime = time(0);
+}
+
 std::string Customer::getFirstName(){
   return this->m_FirstName;
 }
