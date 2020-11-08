@@ -30,11 +30,15 @@
 *.exe
 *.out
 *.app
+driver
+runTest
 
 # CMake
 CMakeCache.txt
 cmake_install.cmake
 Makefile
 CMakeFiles/
-runTest
-driver
+
+
+# Serialized Objects
+*.save

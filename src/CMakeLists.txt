@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.18)
+project(TireAppoinementManager)
+find_package(Boost REQUIRED serialization)
+include_directories(${Boost_LIBRARIES})
+add_executable(driver Customer.cpp Driver.cpp)
+target_link_libraries(appointmentmanager ${Boost_LIBRARIES})
