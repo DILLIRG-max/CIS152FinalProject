@@ -39,6 +39,9 @@ cmake_install.cmake
 Makefile
 CMakeFiles/
 
+#Qt
+*_autogen/
+
 
 # Serialized Objects
 *.save

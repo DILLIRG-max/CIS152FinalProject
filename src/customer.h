@@ -9,7 +9,7 @@
 * Author      : Dylan Kennedy
 * Created     : 12/01/2020
 ***************************************************************/
-const int THRESHOLD = 6000;
+const int THRESHOLD = 900000;
 class Customer
 {
     private:
