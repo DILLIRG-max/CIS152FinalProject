@@ -6,7 +6,8 @@
     <message>
         <location filename="mainwindow.ui" line="20"/>
         <location filename="AppointmentManager_autogen/include/ui_mainwindow.h" line="182"/>
-        <source>Appointment Manager</source>
+        <source>Tires RUS Appointment Manager</source>
+        <oldsource>Appointment Manager</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
