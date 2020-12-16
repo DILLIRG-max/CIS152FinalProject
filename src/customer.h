@@ -3,13 +3,11 @@
 #define CUSTOMER_H
 #include <QDateTime>
 #include <QString>
-#include <QColor>
 /***************************************************************
 * Name        : Customer
 * Author      : Dylan Kennedy
 * Created     : 12/01/2020
 ***************************************************************/
-const int THRESHOLD = 900000;
 class Customer
 {
     private:
@@ -17,6 +15,7 @@ class Customer
         QString m_Appointment;
         int m_Priority;
         QDateTime m_ArivalTime;
+        int m_Threshold;
 
 
     public:
@@ -24,6 +23,7 @@ class Customer
         QString getName();
         QString getAppointment();
         int getPriority();
+        void setThreshold(int value);
         QDateTime getArrivalTime();
         QString getBackgroundColor();
         ~Customer();

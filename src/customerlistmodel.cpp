@@ -76,13 +76,11 @@ QString CustomerListModel::removeCustomer(const int index){
         m_Data.removeAt(index);
         endResetModel();
 
-    }else if(index < 0 && m_Data.count() > 0){
+    }else if(m_Data.count() > 0){
         throw NoEntrySelected();
-        return "";
 
     }else{
         throw ModelEmptyException();
-        return "";
     }
 
     return name;

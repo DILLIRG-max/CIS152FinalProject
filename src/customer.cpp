@@ -12,6 +12,7 @@ Customer::Customer(const QString& name, const QString& appointment, const int& p
     m_Appointment = appointment;
     m_Priority = priority;
     m_ArivalTime = QDateTime::currentDateTime();
+    m_Threshold = 900000;
 
 }
 
@@ -67,11 +68,15 @@ QString Customer::getBackgroundColor(){
 
     qint64 diff = m_ArivalTime.msecsTo(QDateTime::currentDateTime());
 
-    if(diff > THRESHOLD){
+    if(diff > this->m_Threshold){
         return "pink";
      }
 
     return "white";
+}
+
+void Customer::setThreshold(int value){
+    this->m_Threshold = value;
 }
 
 /*********************************************************************

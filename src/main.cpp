@@ -1,5 +1,5 @@
 /**************************************************************
-* Name        : Tree
+* Name        : Appointment Manager
 * Author      : Dylan Kennedy
 * Created     : 12/01/2020
 * Course      : CIS 161 – C++

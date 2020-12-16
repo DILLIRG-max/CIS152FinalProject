@@ -38,9 +38,11 @@ CMakeCache.txt
 cmake_install.cmake
 Makefile
 CMakeFiles/
+.cmake/
 
 #Qt
 *_autogen/
+build*/
 
 
 # Serialized Objects
